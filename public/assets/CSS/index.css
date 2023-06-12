@@ -1,0 +1,42 @@
+body{
+	background-image: url("../background/picture.jpg");
+}
+
+.home-container {
+	max-width: 500px;
+	margin: 0 auto;
+	margin-top: 10vh;
+	border-style: solid;
+	border-color:rgb(89, 92, 94);
+}
+
+.home-header {
+	text-align: center;
+	padding: 20px;
+	background-color: rgb(59, 59, 59);
+	color: white;
+}
+
+.home-main {
+	padding: 30px 40px;
+	background: rgb(199 187 171);
+}
+
+.home-main .btn {
+	margin-top: 20px;
+	width: 100%;
+	color: white;
+	background-color: rgb(20, 19, 19);
+	border: none;
+}
+
+.home-main .btn:hover{
+	background-color: rgb(100, 100, 100);
+}
+
+.home-main input {
+	font-size: 16px;
+	padding: 5px;
+	height: 40px;
+	width: 100%;
+}
